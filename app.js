@@ -84,7 +84,7 @@ app.get('/list', (req, res) => {
 	const type = req.query.type || "1";
 	const pn = req.query.pn || "1";
 	const ps = req.query.ps || "10";			//每个json含有的番剧数量
-	const vmid = req.query.vmid || "6535656";		//uid	
+	const vmid = req.query.vmid || "123";		//uid	
 	const num = 28;			//总文件数（total/ps+1）
 	//设置cookies
 	const mycookie = req.query.cookies || "你的cookies";
